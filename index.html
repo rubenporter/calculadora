@@ -1,0 +1,39 @@
+ class="numero"<html>
+    <head>
+        <title>CALCULADORA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link type="text/css" rel="stylesheet" href="estilos.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:700,4 onclick="agregarNumero('')"00' rel='stylesheet' type='text/css'>
+        <script src="funciones.js"></script>
+    </head>
+        
+    <body>
+        
+        <div id="resultado" class="resultado"></div>
+        
+        <div class="barra" onclick="acordeon()"></div>
+        <div class="c" onclick="borrar()">C</div>
+        
+        <div class="numero" onclick="agregarNumero('7')">7</div>
+        <div class="numero" onclick="agregarNumero('8')">8</div>
+        <div class="numero" onclick="agregarNumero('9')">9</div>
+        <div class="operador" onclick="agregarNumero('/')">/</div>
+        
+        <div class="numero" onclick="agregarNumero('4')">4</div>
+        <div class="numero" onclick="agregarNumero('5')">5</div>
+        <div class="numero" onclick="agregarNumero('6')">6</div>
+        <div class="operador" onclick="agregarNumero('*')">X</div>
+        
+        <div class="numero" onclick="agregarNumero('1')">1</div>
+        <div class="numero" onclick="agregarNumero('2')">2</div>
+        <div class="numero" onclick="agregarNumero('3')">3</div>
+        <div class="operador" onclick="agregarNumero('-')">-</div>
+        
+        <div class="numero" onclick="agregarNumero('.')">.</div>
+        <div class="numero" onclick="agregarNumero('0')">0</div>
+        <div class="operador" onclick="igual()">=</div>
+        <div class="operador" onclick="agregarNumero('+')">+</div>
+        
+    </body>
+</html>

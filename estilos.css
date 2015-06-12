@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #000;
+}
+
+.numero{
+    background: #474747;
+    width: 25%;
+    border: 3px solid #000;
+    border-top: 1px solid #5d5d5d;
+    float: left;
+    height: 16.6%;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.operador{
+    background: #222222;
+    width: 25%;
+    border: 3px solid #000;
+    border-top: 1px solid #5d5d5d;
+    float: left;
+    height: 16.6%;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.barra{
+    width: 75%;
+    float: left;
+    height: 12%;
+    background: #222222;
+    border: 3px solid #000;
+    border-top: 1px solid #5d5d5d;
+    box-sizing: border-box;
+}
+
+.resultado{
+    width: 100%;
+    height: 20.6%;
+    font-size: 40px;
+    text-align: right;
+    color: #fff;
+    line-height: 120px;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.c{
+    width: 25%;
+    float: left;
+    height: 12%;
+    text-align: center;
+    color: #fff;
+    background: #222222;
+    border: 3px solid #000;
+    border-top: 1px solid #5d5d5d;
+    box-sizing: border-box;
+    line-height: 80px;
+}
+
+textarea{
+    font-family: 'Roboto', sans-serif;
+    background: #474747;
+    border: none;
+    border-radius: 5px;
+    width:90%;
+    float: left;
+    margin-left: 5%;
+    height: 50%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+button{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    background: #5fd5ff;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
